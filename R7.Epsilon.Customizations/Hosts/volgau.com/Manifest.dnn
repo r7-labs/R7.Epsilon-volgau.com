@@ -1,0 +1,30 @@
+﻿<dotnetnuke type="Package" version="5.0">
+	<packages>
+		<package name="R7.Epsilon.Customizations-volgau.com" type="Module" version="00.01.00">
+			<friendlyName>R7.Epsilon.Customizations-volgau.com</friendlyName>
+			<description>R7.Epsilon Skin customizations for volgau.com portals</description>
+			<owner>
+				<name>Roman M. Yagodin</name>
+				<organization>R7.Labs</organization>
+				<url>https://github.com/volgau/R7.Epsilon.Customizations</url>
+				<email>roman.yagodin@gmail.com</email>
+			</owner>
+			<!-- <azureCompatible>true</azureCompatible> -->
+			<license src="license.htm" />
+			<releaseNotes src="releaseNotes.htm" />
+			<dependencies>
+                <dependency type="managedPackage" version="1.14.0">R7.Epsilon Skin</dependency>
+			</dependencies>
+			<components>
+				<component type="ResourceFile">
+					<resourceFiles>
+						<basePath></basePath>
+						<resourceFile>
+							<name>Resources.zip</name>
+						</resourceFile>
+					</resourceFiles>
+				</component>
+            </components>
+        </package>
+    </packages>
+</dotnetnuke>

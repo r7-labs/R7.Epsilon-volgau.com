@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0" DefaultTargets="VolgauCom">
+	<Import Project="$(MSBuildThisFileDirectory)/../../_Settings.targets" Condition=" '$(BuildSettingsImported)' == '' " />
+	<Import Project="$(MSBuildThisFileDirectory)/../../InstallPackage.targets" Condition=" '$(InstallPackageImported)' == '' " />
+	<PropertyGroup>
+		<HostName>volgau.com</HostName>
+		<IncludeBasePath>$(MSBuildThisFileDirectory)</IncludeBasePath>
+	</PropertyGroup>
+	<ItemGroup>
+		<InstallIncludeFiles Include="$(IncludeBasePath)\**\*.yml" />
+		<InstallIncludeFiles Include="$(IncludeBasePath)\**\*.resx" />
+		<InstallIncludeFiles Include="$(IncludeBasePath)\**\.css" />
+		<InstallIncludeFiles Include="$(IncludeBasePath)\**\.js" />
+		<InstallIncludeFiles Include="$(IncludeBasePath)\**\.png" />
+		<InstallIncludeFiles Include="$(IncludeBasePath)\**\.jpg" />
+	</ItemGroup>
+	<ItemGroup>
+		<InstallManifestFiles Include="$(IncludeBasePath)\license.htm" />
+		<InstallManifestFiles Include="$(IncludeBasePath)\releaseNotes.htm" />
+	</ItemGroup>
+	<Target Name="VolgauCom">
+		<CallTarget Targets="InstallPackage" />
+	</Target>
+</Project>
