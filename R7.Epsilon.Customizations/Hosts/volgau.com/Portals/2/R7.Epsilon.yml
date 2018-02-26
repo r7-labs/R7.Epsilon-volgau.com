@@ -4,8 +4,6 @@ skin-a11y-css: css/a11y-skin.min.css
 
 footer-buttons-group-name: NavMenu1
 
-feedback-tab-id: 2659
-
 primary-menu:
   node-selector: "*,0,2"
 
