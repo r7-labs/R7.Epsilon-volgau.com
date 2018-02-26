@@ -24,10 +24,4 @@
     <data name="Founder2.Href" xml:space="preserve">
         <value>http://www.mcx.ru</value>
     </data>
-    <data name="LogoTitle.Text" xml:space="preserve">
-        <value>&lt;span class=&quot;firstline&quot;&gt;Volgograd&lt;/span&gt;&lt;br /&gt;State Agricultural University</value>
-    </data>
-    <data name="LogoTitle.Tagline" xml:space="preserve">
-        <value>to the good ground...</value>
-    </data>
 </root>
