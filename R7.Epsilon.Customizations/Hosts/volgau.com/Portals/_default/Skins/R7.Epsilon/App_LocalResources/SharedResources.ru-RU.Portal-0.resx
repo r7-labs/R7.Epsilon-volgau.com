@@ -35,8 +35,18 @@
             &lt;div class=&quot;tagline&quot;&gt;&lt;a href=&quot;mailto:pricom@volgau.com&quot;>pricom@volgau.com&lt;/a&gt;&lt;/div&gt;
         </value>
     </data>
-    <data xml:space="preserve" name="FooterPane1.Content">
-        <value><![CDATA[<div class="skin-footer-content-well"><span>Сетевое издание &quot;На добрую землю&quot;,</span> <span>свидетельство о регистрации СМИ</span> <span>Эл № ФС 77-56821</span> <span>от 05 октября 2016 года, выдано Федеральной службой по надзору в сфере связи, информационных технологий и массовых коммуникаций (Роскомнадзор)</span></div>]]></value>
+	<data name="FooterPane1.Content" xml:space="preserve">
+        <value><![CDATA[<div class="skin-footer-content-well">
+			<span><strong>Сетевое издание &quot;На добрую землю&quot;</strong></span>
+			<span>Свидетельство о регистрации СМИ</span> <span>Эл № ФС 77-56821</span>
+			<span>от 05 октября 2016 года, выдано Федеральной службой по надзору в сфере связи,
+			информационных технологий и массовых коммуникаций (Роскомнадзор).
+			Учредитель: Федеральное государственное бюджетное образовательное учреждение высшего образования
+			&quot;Волгоградский государственный аграрный университет&quot;.
+			<span>Главный редактор:</span> Овчинников А.С.
+			Адрес электронной почты: <a href="mailto:volgau@volgau.com">volgau@volgau.com</a>
+			<span>Тел.: +7 (8442) 411-784</span>
+			</div>]]></value>
     </data>
     <data xml:space="preserve" name="FooterPane2.Content">
         <value><![CDATA[
