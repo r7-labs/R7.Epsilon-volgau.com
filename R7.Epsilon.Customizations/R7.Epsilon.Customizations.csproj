@@ -40,7 +40,6 @@
     <None Include="Hosts\volgau.com\Portals\_default\Skins\R7.Epsilon\App_LocalResources\SharedResources.ru-RU.Portal-0.resx" />
     <None Include="Hosts\volgau.com\Portals\_default\Skins\R7.Epsilon\App_LocalResources\SharedResources.ru-RU.Portal-2.resx" />
     <None Include="Hosts\volgau.com\Portals\_default\Skins\R7.Epsilon\App_LocalResources\SharedResources.ru-RU.Portal-3.resx" />
-    <None Include="Hosts\volgau.com\Portals\_default\Skins\R7.Epsilon\App_LocalResources\SharedResources.ru-RU.Portal-5.resx" />
     <None Include="Hosts\volgau.com\Portals\_default\Skins\R7.Epsilon\images\founders.png" />
     <None Include="Hosts\volgau.com\Portals\_default\Skins\R7.Epsilon\images\founders.svg" />
     <None Include="Hosts\volgau.com\Portals\0\logo_133x100.png" />
@@ -49,10 +48,6 @@
     <None Include="Hosts\volgau.com\Portals\2\R7.Epsilon.yml" />
     <None Include="Hosts\volgau.com\Portals\3\logo_133x100.png" />
     <None Include="Hosts\volgau.com\Portals\3\R7.Epsilon.yml" />
-    <None Include="Hosts\volgau.com\Portals\5\logo.png" />
-    <None Include="Hosts\volgau.com\Portals\5\logo.svg" />
-    <None Include="Hosts\volgau.com\Portals\5\portal.css" />
-    <None Include="Hosts\volgau.com\Portals\5\R7.Epsilon.yml" />
     <None Include="Hosts\volgau.com\Build.targets" />
     <None Include="Hosts\volgau.com\Manifest.dnn" />
     <None Include="_Settings.targets" />

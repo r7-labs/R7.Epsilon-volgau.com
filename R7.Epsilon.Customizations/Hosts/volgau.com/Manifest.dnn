@@ -24,6 +24,18 @@
 						</resourceFile>
 					</resourceFiles>
 				</component>
+				<component type="Cleanup" version="00.01.00">
+					<files>
+						<file>
+							<path>Portals/_default/Skins/R7.Epsilon/App_LocalResources</path>
+							<name>SharedResources.ru-RU.Portal-5.resx</name>
+						</file>
+						<file>
+							<path>Portals/5</path>
+							<name>R7.Epsilon.yml</name>
+						</file>
+					</files>
+				</component>	
             </components>
         </package>
     </packages>
