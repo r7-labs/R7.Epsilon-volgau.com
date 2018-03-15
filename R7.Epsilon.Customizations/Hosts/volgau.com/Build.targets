@@ -5,6 +5,7 @@
 	<PropertyGroup>
 		<HostName>volgau.com</HostName>
 		<IncludeBasePath>$(MSBuildThisFileDirectory)</IncludeBasePath>
+		<ManifestFile>$(IncludeBasePath)/Manifest.dnn</ManifestFile>
 	</PropertyGroup>
 	<ItemGroup>
 		<InstallIncludeFiles Include="$(IncludeBasePath)\**\*.yml" />
@@ -15,6 +16,7 @@
 		<InstallIncludeFiles Include="$(IncludeBasePath)\**\.jpg" />
 	</ItemGroup>
 	<ItemGroup>
+		<InstallManifestFiles Include="$(ManifestFile)" />
 		<InstallManifestFiles Include="$(IncludeBasePath)\license.htm" />
 		<InstallManifestFiles Include="$(IncludeBasePath)\releaseNotes.htm" />
 	</ItemGroup>

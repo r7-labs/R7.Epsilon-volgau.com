@@ -8,17 +8,12 @@
         <RemoveDir Directories="$(TmpDir)" />
 
 		<!-- Read package version from the manifest -->
-        <XmlPeek Query="/dotnetnuke/packages/package[1]/@version" XmlInputPath="Manifest.dnn">
+        <XmlPeek Query="/dotnetnuke/packages/package[1]/@version" XmlInputPath="$(ManifestFile)">
             <Output TaskParameter="Result" PropertyName="Version" />
         </XmlPeek>
 		<PropertyGroup>
             <PackageFileName>$(PackageName)-$(HostName)-$(Version)-Install.zip</PackageFileName>
         </PropertyGroup>
-
-		<!-- Declare manifest files -->
-		<ItemGroup>
-			<InstallManifestFiles Include="Manifest.dnn" />
-		</ItemGroup>
 
 		<!-- Apply excluded files filters -->
         <ItemGroup>
