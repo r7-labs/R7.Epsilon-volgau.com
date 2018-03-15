@@ -10,10 +10,10 @@
 	<ItemGroup>
 		<InstallIncludeFiles Include="$(IncludeBasePath)\**\*.yml" />
 		<InstallIncludeFiles Include="$(IncludeBasePath)\**\*.resx" />
-		<InstallIncludeFiles Include="$(IncludeBasePath)\**\.css" />
-		<InstallIncludeFiles Include="$(IncludeBasePath)\**\.js" />
-		<InstallIncludeFiles Include="$(IncludeBasePath)\**\.png" />
-		<InstallIncludeFiles Include="$(IncludeBasePath)\**\.jpg" />
+		<InstallIncludeFiles Include="$(IncludeBasePath)\**\*.css" />
+		<InstallIncludeFiles Include="$(IncludeBasePath)\**\*.js" />
+		<InstallIncludeFiles Include="$(IncludeBasePath)\**\*.png" />
+		<InstallIncludeFiles Include="$(IncludeBasePath)\**\*.jpg" />
 	</ItemGroup>
 	<ItemGroup>
 		<InstallManifestFiles Include="$(ManifestFile)" />
