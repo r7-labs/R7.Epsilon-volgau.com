@@ -57,6 +57,12 @@
     <None Include="Hosts\volgau.com\releaseNotes.htm" />
     <None Include="packages.config" />
     <None Include="Hosts\volgau.com\Portals\_default\Skins\R7.Epsilon\App_LocalResources\SharedResources.ru-RU.Host.resx" />
+    <None Include="Hosts\volgau.com\images\favicons\favicon-16x16.png" />
+    <None Include="Hosts\volgau.com\images\favicons\favicon-32x32.png" />
+    <None Include="Hosts\volgau.com\images\favicons\favicon-96x96.png" />
+    <None Include="Hosts\volgau.com\src\favicons\favicon-16x16.svg" />
+    <None Include="Hosts\volgau.com\src\favicons\favicon-32x32.svg" />
+    <None Include="Hosts\volgau.com\src\favicons\favicon-96x96.svg" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Hosts\volgau.com\" />
