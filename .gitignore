@@ -1,4 +1,5 @@
 # User-specific
+/.vs/
 *.user
 *.userprefs
 *.usertasks
