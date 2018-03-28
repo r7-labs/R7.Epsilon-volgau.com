@@ -13,6 +13,7 @@
 		<InstallIncludeFiles Include="$(IncludeBasePath)\**\*.css" />
 		<InstallIncludeFiles Include="$(IncludeBasePath)\**\*.js" />
 		<InstallIncludeFiles Include="$(IncludeBasePath)\**\*.png" />
+		<InstallIncludeFiles Include="$(IncludeBasePath)\**\*.ico" />
 		<InstallIncludeFiles Include="$(IncludeBasePath)\**\*.jpg" />
 	</ItemGroup>
 	<ItemGroup>
