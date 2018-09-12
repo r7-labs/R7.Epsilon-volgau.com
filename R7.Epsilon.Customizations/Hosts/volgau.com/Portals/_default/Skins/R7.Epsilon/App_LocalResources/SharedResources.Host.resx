@@ -27,4 +27,7 @@
 	<data name="FeedbackMessage.Text" xml:space="preserve">
         <value></value>
     </data>
+	<data name="AltWebsite.Title" xml:space="preserve">
+        <value></value>
+    </data>
 </root>
