@@ -35,10 +35,6 @@ social-networks:
     group: https://twitter.com/volgau_com
     share-enabled: false
     params: ['volgau_com'] # via
-
-  - name: GooglePlus
-    group: https://plus.google.com/communities/113661705633931940712
-    share-enabled: true
    
   - name: YouTube
     group: https://www.youtube.com/channel/UCYPMmQknVPxosuY4iPCfVDg
