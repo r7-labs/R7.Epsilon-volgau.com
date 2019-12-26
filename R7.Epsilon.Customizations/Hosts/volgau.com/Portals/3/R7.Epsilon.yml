@@ -1,59 +1,61 @@
-﻿skin-css: css/world-skin.min.css
+﻿themes:
 
-skin-a11y-css: css/a11y-skin.min.css
+  - name: brown
+    css: brown-theme.min.css
+    color: brown
 
-footer-buttons-group-name: NavMenu1
+  - name: contrast
+    css: contrast-theme.min.css
+    color: black
+    is-a11y-theme: true
 
-cdns:
+menu:
 
-  - href: https://use.fontawesome.com/releases/v5.6.3/css/all.css
-    integrity: sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/
-    location: PageHead
+  url-format: "/tabid/{tabid}"
 
 primary-menu:
-  node-selector: "*,0,2"
+
+  node-selector: "*,0,3"
 
 secondary-menu:
-  node-selector: "*,0,2"
+
+  node-selector: "*,0,3"
   include-nodes: 0
 
-menu-url-type: 0
+breadcrumb-menu:
 
-menu-min-headers: 7
+  node-selector: "*,0,7"
 
-social-networks:
+social-groups:
 
-  - name: VKontakte
-    group: https://vk.com/volgau_com
+  - type: VKontakte
+    url: https://vk.com/volgau_com
     api-id: 4754730
     is-primary: true
     share-enabled: true
 
-  - name: Facebook
-    group: https://www.facebook.com/volgau
+  - type: Facebook
+    url: https://www.facebook.com/volgau
     api-id: 413998678785585
     share-enabled: false
 
-  - name: Twitter
-    group: https://twitter.com/volgau_com
+  - type: Twitter
+    url: https://twitter.com/volgau_com
     share-enabled: false
     params: ['volgau_com'] # via
-
-  - name: YouTube
-    group: https://www.youtube.com/channel/UCYPMmQknVPxosuY4iPCfVDg
-    is-primary: true 
+   
+  - type: YouTube
+    url: https://www.youtube.com/channel/UCYPMmQknVPxosuY4iPCfVDg
 
   - name: Odnoklassniki
-    group: https://ok.ru/group/51992191172689
+    url: https://ok.ru/group/51992191172689
     
-  - name: Instagram
-    group: https://www.instagram.com/volgau
-
-#  - name: LinkedIn
-#    group: https://www.linkedin.com/company-beta/10870997
+  - type: Instagram
+    url: https://www.instagram.com/volgau
 
 adsense:
-  client: ca-pub-9311000650074319
+
+  client: pub-9311000650074319
   slot: 8390966088
 
 show-terms: false
@@ -63,4 +65,65 @@ show-privacy: false
 use-obrnadzor-microdata: true
 
 analytics:
+
   use-sputnik: false
+
+websites:
+
+  - name: volgau
+    url: http://www.volgau.com
+    hreflang: ru
+
+  - name: sdo
+    url: http://sdo.volgau.com
+    hreflang: ru
+
+  - name: lk
+    url: http://lk.volgau.com
+    hreflang: ru
+
+  - name: consulting
+    url: http://consulting.volgau.com
+    hreflang: ru
+
+  - name: edushare
+    url: http://edushare.volgau.com
+    hreflang: ru
+  
+  - name: projects
+    url: http://projects.volgau.com
+    hreflang: ru
+
+  - name: lib
+    url: http://lib.volgau.com/megapro/web
+    hreflang: ru
+
+  - name: dru
+    url: http://marabu34.ru/detskiy_universitet/
+    hreflang: ru
+
+search-engines:
+
+  - type: Google
+    url-format: https://google.com/search?q=site:{website}%20{searchText}
+
+  - type: Yandex
+    url-format: https://yandex.ru/search?site={website}&text={searchText}
+
+  - type: DuckDuckGo
+    url-format: https://duckduckgo.com/search?q=site:{website}%20{searchText}
+
+permalink-formats:
+
+  - "/tabid/{tabid}{?forumid}{?threadid}{?scope}"
+  - "/linkclick.aspx?link={tabid}&portalid={portalid}{?forumid}{?threadid}{?scope}"
+
+url-shorteners:
+
+  - label: "tinyurl.com"
+    url-format: https://tinyurl.com/create.php?url={url}
+
+  - label: "clck.ru"
+    url-format: https://clck.ru?url={url}
+
+canonical-url-format: "{taburl}{/forumid}{/threadid}{/scope}"

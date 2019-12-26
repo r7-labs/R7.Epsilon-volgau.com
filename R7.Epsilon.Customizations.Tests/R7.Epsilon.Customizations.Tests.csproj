@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <IsPackable>false</IsPackable>
+    <!-- Fix for CS0017 Program has more than one entry point defined... https://andrewlock.net/fixing-the-error-program-has-more-than-one-entry-point-defined-for-console-apps-containing-xunit-tests/ -->
+    <GenerateProgramFile>false</GenerateProgramFile>
+    <!-- End fix -->
+    <ReleaseVersion>0.5</ReleaseVersion>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="YamlDotNet" Version="8.0.0" />
+    <PackageReference Include="xunit" Version="2.4.1" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="R7.Epsilon.Customizations.Tests.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="..\..\R7.Epsilon\R7.Epsilon\Components\EpsilonPortalConfig.cs">
+      <Link>Components\EpsilonPortalConfig.cs</Link>
+    </Compile>
+    <Compile Include="..\..\R7.Epsilon\R7.Epsilon\Components\SearchEngineType.cs">
+      <Link>Components\SearchEngineType.cs</Link>
+    </Compile>
+    <Compile Include="..\..\R7.Epsilon\R7.Epsilon\Components\SocialGroupType.cs">
+      <Link>Components\SocialGroupType.cs</Link>
+    </Compile>
+    <Compile Include="CustomizationsPortalConfigTests.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Components\" />
+  </ItemGroup>
+</Project>
