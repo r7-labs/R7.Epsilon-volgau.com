@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -40,8 +40,6 @@
     <None Include="Hosts\volgau.com\Portals\_default\Skins\R7.Epsilon\App_LocalResources\SharedResources.ru-RU.Portal-0.resx" />
     <None Include="Hosts\volgau.com\Portals\_default\Skins\R7.Epsilon\App_LocalResources\SharedResources.ru-RU.Portal-2.resx" />
     <None Include="Hosts\volgau.com\Portals\_default\Skins\R7.Epsilon\App_LocalResources\SharedResources.ru-RU.Portal-3.resx" />
-    <None Include="Hosts\volgau.com\Portals\_default\Skins\R7.Epsilon\images\founders.png" />
-    <None Include="Hosts\volgau.com\Portals\_default\Skins\R7.Epsilon\images\founders.svg" />
     <None Include="Hosts\volgau.com\Portals\0\R7.Epsilon.yml" />
     <None Include="Hosts\volgau.com\Portals\2\R7.Epsilon.yml" />
     <None Include="Hosts\volgau.com\Portals\3\R7.Epsilon.yml" />
