@@ -12,76 +12,52 @@
 	<resheader name="writer">
 		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
 	</resheader>
-	<data name="LogoTitle.Text" xml:space="preserve">
-        <value>&lt;span class=&quot;firstline&quot;&gt;Волгоградский&lt;/span&gt;&lt;br /&gt;государственный аграрный университет</value>
-    </data>
-    <data name="LogoTitle.Tagline" xml:space="preserve">
-        <value>на добрую землю...</value>
-    </data>
-    <data name="HeaderPane1.Content" xml:space="preserve">
-        <value>&lt;a href=&quot;/LinkClick.aspx?link=55&quot; target=&quot;_blank&quot;&gt;&lt;span class=&quot;firstline&quot;&gt;Приемная комиссия:&lt;/span&gt;&lt;br /&gt;+7 (8442) 411-778&lt;/a&gt;
-            &lt;div class=&quot;tagline&quot;&gt;&lt;a href=&quot;mailto:volgau@volgau.com&quot;>volgau@volgau.com&lt;/a&gt;&lt;/div&gt;
-        </value>
-    </data>
-	<data name="FooterPane1.Content" xml:space="preserve">
-        <value><![CDATA[<div class="skin-footer-content-well">
-			<span><strong>Сетевое издание &quot;На добрую землю&quot;</strong></span>
-			<span>Свидетельство о регистрации СМИ</span> <span>Эл № ФС 77-56821</span>
-			<span>от 05 октября 2016 года, выдано Федеральной службой по надзору в сфере связи,
-			информационных технологий и массовых коммуникаций (Роскомнадзор).
-			Учредитель: Федеральное государственное бюджетное образовательное учреждение высшего образования
-			&quot;Волгоградский государственный аграрный университет&quot;.
-			<span>Главный редактор:</span> Овчинников А.С.
-			Адрес электронной почты: <a href="mailto:volgau@volgau.com">volgau@volgau.com</a>
-			<span>Тел.: +7 (8442) 411-784</span>
-			</div>]]></value>
-    </data>
-    <data xml:space="preserve" name="FooterPane2.Content">
-        <value><![CDATA[
-        <div class="skin-footer-content-element">
-            <strong>Университет</strong>
-            <ul class="list-inline">
-                <li><a href="/LinkClick.aspx?link=3986">Контакты</a></li>
-                <li><a href="/LinkClick.aspx?link=2659">Обратная связь</a></li>
-                <li><a href="/LinkClick.aspx?link=10463">Подразделения</a></li>
-                <li><a href="/LinkClick.aspx?link=10462">Сотрудники</a></li>
-            </ul>
-        </div>        
-        <div class="skin-footer-content-element">
-            <strong>Печатные издания</strong>
-            <ul class="list-inline">
-                <li><a href="/LinkClick.aspx?link=361">Мичуринец</a></li>
-                <li><a href="/LinkClick.aspx?link=612">Известия Нижневолжского АУК</a></li>
-            </ul>
-        </div>]]></value>
-    </data>
-    <data xml:space="preserve" name="FooterPane3.Content">
-        <value><![CDATA[
-        <div class="skin-footer-content-element">
-            <strong><a href="/LinkClick.aspx?link=55">Приемная комиссия</a></strong>
-            <ul class="list-inline">
-                <li>+7 (8442) 411-778</li>
-                <li>+7 (8442) 411-885</li>
-                <li><a href="mailto:volgau@volgau.com">volgau@volgau.com</a></li>
-            </ul>
-        </div>
-        <div class="skin-footer-content-element">
-            <strong><a href="/LinkClick.aspx?link=105">Ректорат</a></strong>
-            <ul class="list-inline">
-                <li>+7 (8442) 411-784</li>
-                <li><a href="mailto:volgau@volgau.com">volgau@volgau.com</a></li>
-            </ul>
-        </div>
-        <div class="skin-footer-content-element">
-            <strong><a href="/LinkClick.aspx?link=156">Веб-мастер</a></strong>
-            <ul class="list-inline">
-                <li>+7 (8442) 411-317</li>
-                <li><a href="mailto:webmaster@volgau.com">webmaster@volgau.com</a></li>
-            </ul>
-        </div>
-        ]]></value>
-    </data>
-	<data name="AltWebsite.Title" xml:space="preserve">
-        <value>Multilanguage Website / Мультиязычный портал</value>
-    </data>
+	<data name="A11y_Tooltip.Text" xml:space="preserve">
+		<value>Возможности для слабовидящих</value>
+	</data>
+	<data name="A11y_Icon.Text" xml:space="preserve">
+		<value><![CDATA[<i class="fas fa-eye"></i>]]></value>
+	</data>
+	<data name="A11yWebsiteVersion.Text" xml:space="preserve">
+		<value>Версия сайта для слабовидящих</value>
+	</data>
+	<data name="FooterPane1_Content.Text" xml:space="preserve">
+		<value><![CDATA[<h5>Выходные данные СМИ</h5>
+			<p>Сетевое издание &quot;На добрую землю&quot; Свидетельство о регистрации СМИ Эл № ФС 77-56821
+			от 05 октября 2016 года, выдано Федеральной службой по надзору в сфере связи, информационных технологий и массовых коммуникаций (Роскомнадзор).
+			Учредитель: Федеральное государственное бюджетное образовательное учреждение высшего образования &quot;Волгоградский государственный аграрный университет&quot;.
+			Главный редактор: Овчинников А.С. Адрес электронной почты: <a href="mailto:volgau@volgau.com">volgau@volgau.com</a> Тел.: +7 (8442) 411-784</p>]]></value>
+	</data>
+	<data name="FooterPane3_Content.Text" xml:space="preserve">
+		<value><![CDATA[<h5><strong>Университет</strong></h5>
+			<ul class="list-inline">
+				<li class="list-inline-item"><a href="/tabid/3986">Контакты</a></li>
+				<li class="list-inline-item"><a href="/tabid/2659">Обратная связь</a></li>
+				<li class="list-inline-item"><a href="/tabid/10463">Подразделения</a></li>
+				<li class="list-inline-item"><a href="/tabid/10462">Сотрудники</a></li>
+			</ul>
+			<h5><strong>Печатные издания</strong></h5>
+			<ul class="list-inline">
+				<li class="list-inline-item"><a href="/tabid/361">Мичуринец</a></li>
+				<li class="list-inline-item"><a href="/tabid/612">Известия Нижневолжского АУК</a></li>
+			</ul>]]></value>
+	</data>
+	<data name="FooterPane4_Content.Text"  xml:space="preserve">
+		<value><![CDATA[<h5><strong><a href="/tabid/55">Приемная комиссия</a></strong></h5>
+			<ul class="list-inline">
+				<li class="list-inline-item">+7 (8442) 411-778</li>
+				<li class="list-inline-item">+7 (8442) 411-885</li>
+				<li class="list-inline-item"><a href="mailto:volgau@volgau.com">volgau@volgau.com</a></li>
+			</ul>
+			<h5><strong><a href="/tabid/105">Ректорат</a></strong></h5>
+			<ul class="list-inline">
+				<li class="list-inline-item">+7 (8442) 411-784</li>
+				<li class="list-inline-item"><a href="mailto:volgau@volgau.com">volgau@volgau.com</a></li>
+			</ul>
+			<h5><strong><a href="/tabid/156">Веб-мастер</a></strong></h5>
+			<ul class="list-inline">
+				<li class="list-inline-item">+7 (8442) 411-317</li>
+				<li class="list-inline-item"><a href="mailto:webmaster@volgau.com">webmaster@volgau.com</a></li>
+			</ul>]]></value>
+	</data>
 </root>

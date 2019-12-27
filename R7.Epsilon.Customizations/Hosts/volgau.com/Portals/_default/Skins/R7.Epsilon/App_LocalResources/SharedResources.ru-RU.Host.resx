@@ -12,19 +12,31 @@
 	<resheader name="writer">
 		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
 	</resheader>
-    <data name="Founder1.Title" xml:space="preserve">
-        <value>Сайт Министерства образования и науки</value>
-    </data>
-    <data name="Founder1.Href" xml:space="preserve">
-        <value>http://минобрнауки.рф</value>
-    </data>
-    <data name="Founder2.Title" xml:space="preserve">
-        <value>Сайт Министерства сельского хозяйства</value>
-    </data>
-    <data name="Founder2.Href" xml:space="preserve">
-        <value>http://www.mcx.ru</value>
-    </data>
-	<data name="FeedbackMessage.Text" xml:space="preserve">
-        <value></value>
-    </data>
+	<data name="Website_volgau.Text" xml:space="preserve">
+		<value>Официальный сайт Волгоградского ГАУ</value>
+	</data>
+	<data name="Website_world.Text" xml:space="preserve">
+		<value>Мультиязычный портал</value>
+	</data>
+	<data name="Website_consulting.Text" xml:space="preserve">
+		<value>Система дистанционного консультирования</value>
+	</data>
+	<data name="Website_edushare.Text" xml:space="preserve">
+		<value>Электронный каталог материалов к образовательным программам</value>
+	</data>
+	<data name="Website_projects.Text" xml:space="preserve">
+		<value>Система управления проектами и задачами</value>
+	</data>
+	<data name="Website_sdo.Text" xml:space="preserve">
+		<value>Система дистанционного обучения</value>
+	</data>
+	<data name="Website_lk.Text" xml:space="preserve">
+		<value>Личный кабинет обучающегося</value>
+	</data>
+	<data name="Website_lib.Text" xml:space="preserve">
+		<value>Электронный каталог научной библиотеки</value>
+	</data>
+	<data name="Website_dru.Text" xml:space="preserve">
+		<value>Детский развивающий университет</value>
+	</data>
 </root>
