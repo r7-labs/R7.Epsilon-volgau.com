@@ -15,6 +15,18 @@
 	<data name="FeedbackMessage.Text" xml:space="preserve">
 		<value></value>
 	</data>
+	<data name="FooterPane1_Content.Text" xml:space="preserve">
+		<value></value>
+	</data>
+	<data name="FooterPane2_Content.Text" xml:space="preserve">
+		<value></value>
+	</data>
+	<data name="FooterPane3_Content.Text" xml:space="preserve">
+		<value></value>
+	</data>
+	<data name="FooterPane4_Content.Text" xml:space="preserve">
+		<value></value>
+	</data>
 	<data name="DropCrumb_Home.Text" xml:space="preserve">
 		<value><![CDATA[<i class="fas fa-university"></i>]]></value>
 	</data>
