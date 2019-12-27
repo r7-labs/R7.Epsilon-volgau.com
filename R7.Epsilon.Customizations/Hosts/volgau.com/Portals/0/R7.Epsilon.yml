@@ -51,7 +51,7 @@ social-groups:
     share-enabled: false
     params: ['volgau_com'] # via
 
-  - name: Odnoklassniki
+  - type: Odnoklassniki
     url: https://ok.ru/group/51992191172689
 
   - type: Instagram
