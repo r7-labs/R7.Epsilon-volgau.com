@@ -43,13 +43,13 @@ social-groups:
     url: https://twitter.com/volgau_com
     share-enabled: false
     params: ['volgau_com'] # via
-   
+
   - type: YouTube
     url: https://www.youtube.com/channel/UCYPMmQknVPxosuY4iPCfVDg
 
   - name: Odnoklassniki
     url: https://ok.ru/group/51992191172689
-    
+
   - type: Instagram
     url: https://www.instagram.com/volgau
 
@@ -70,35 +70,35 @@ analytics:
 
 websites:
 
-  - name: volgau
+  - name: Website_volgau
     url: http://www.volgau.com
     hreflang: ru
 
-  - name: sdo
+  - name: Website_sdo
     url: http://sdo.volgau.com
     hreflang: ru
 
-  - name: lk
+  - name: Website_lk
     url: http://lk.volgau.com
     hreflang: ru
 
-  - name: consulting
+  - name: Website_consulting
     url: http://consulting.volgau.com
     hreflang: ru
 
-  - name: edushare
+  - name: Website_edushare
     url: http://edushare.volgau.com
     hreflang: ru
-  
-  - name: projects
+
+  - name: Website_projects
     url: http://projects.volgau.com
     hreflang: ru
 
-  - name: lib
+  - name: Website_lib
     url: http://lib.volgau.com/megapro/web
     hreflang: ru
 
-  - name: dru
+  - name: Website_dru
     url: http://marabu34.ru/detskiy_universitet/
     hreflang: ru
 
