@@ -34,6 +34,10 @@ social-groups:
     is-primary: true
     share-enabled: true
 
+  - type: YouTube
+    url: https://www.youtube.com/channel/UCYPMmQknVPxosuY4iPCfVDg
+    is-primary: true
+
   - type: Facebook
     url: https://www.facebook.com/volgau
     api-id: 413998678785585
@@ -43,9 +47,6 @@ social-groups:
     url: https://twitter.com/volgau_com
     share-enabled: false
     params: ['volgau_com'] # via
-
-  - type: YouTube
-    url: https://www.youtube.com/channel/UCYPMmQknVPxosuY4iPCfVDg
 
   - name: Odnoklassniki
     url: https://ok.ru/group/51992191172689
