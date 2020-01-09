@@ -76,7 +76,7 @@ feedback:
 
   tab-id: 2659
   module-definition-name: "Feedback"
-  allow-open-in-popup: true
+  allow-open-in-popup: false
 
 websites:
 
