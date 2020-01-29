@@ -75,8 +75,7 @@ analytics:
 feedback:
 
   tab-id: 2659
-  module-definition-name: "Feedback"
-  allow-open-in-popup: false
+  module-id: 6947
 
 websites:
 
