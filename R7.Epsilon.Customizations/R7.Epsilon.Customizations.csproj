@@ -31,9 +31,6 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Hosts\volgau.com\Portals\_default\Skins\R7.Epsilon\App_LocalResources\SharedResources.Host.resx" />
     <None Include="Hosts\volgau.com\Portals\_default\Skins\R7.Epsilon\App_LocalResources\SharedResources.Portal-2.resx" />
     <None Include="Hosts\volgau.com\Portals\_default\Skins\R7.Epsilon\App_LocalResources\SharedResources.Portal-3.resx" />
