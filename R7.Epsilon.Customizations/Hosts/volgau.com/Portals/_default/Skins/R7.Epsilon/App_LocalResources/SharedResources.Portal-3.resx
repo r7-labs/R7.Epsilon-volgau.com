@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
 	<resheader name="resmimetype">
 		<value>text/microsoft-resx</value>
@@ -13,32 +13,32 @@
 		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
 	</resheader>
 	<data name="FooterPane3_Content.Text" xml:space="preserve">
-		<value><![CDATA[<h6><a href="/tabid/3986" class="skin-chevron-link">University</a></h6>
+		<value><![CDATA[<h6><a href="http://www.volgau.com/tabid/3986" class="skin-chevron-link">University</a></h6>
 			<ul class="list-inline small">
-				<li class="list-inline-item"><a href="/tabid/3986">Contacts</a></li>
-				<li class="list-inline-item"><a href="/tabid/2659">Feedback</a></li>
-				<li class="list-inline-item"><a href="/tabid/10463">Divisions</a></li>
-				<li class="list-inline-item"><a href="/tabid/10462">Employees</a></li>
+				<li class="list-inline-item"><a href="http://www.volgau.com/tabid/3986">Contacts</a></li>
+				<li class="list-inline-item"><a href="http://www.volgau.com/tabid/2659">Feedback</a></li>
+				<li class="list-inline-item"><a href="http://www.volgau.com/tabid/10463">Divisions</a></li>
+				<li class="list-inline-item"><a href="http://www.volgau.com/tabid/10462">Employees</a></li>
 			</ul>
 			<h6><strong>Printed media</strong></h6>
 			<ul class="list-inline small">
-				<li class="list-inline-item"><a href="/tabid/361">Michurinec</a></li>
-				<li class="list-inline-item"><a href="/tabid/612">Izvestiya Nizhnevolzhskogo AUK</a></li>
+				<li class="list-inline-item"><a href="http://www.volgau.com/tabid/361">Michurinec</a></li>
+				<li class="list-inline-item"><a href="http://www.volgau.com/tabid/612">Izvestiya Nizhnevolzhskogo AUK</a></li>
 			</ul>]]></value>
 	</data>
 	<data name="FooterPane4_Content.Text" xml:space="preserve">
-		<value><![CDATA[<h6><a href="/tabid/55" class="skin-chevron-link">Admission committee</a></h6>
+		<value><![CDATA[<h6><a href="http://www.volgau.com/tabid/55" class="skin-chevron-link">Admission committee</a></h6>
 			<ul class="list-inline small">
 				<li class="list-inline-item">+7 (8442) 411-778</li>
 				<li class="list-inline-item">+7 (8442) 411-885</li>
 				<li class="list-inline-item"><a href="mailto:volgau@volgau.com">volgau@volgau.com</a></li>
 			</ul>
-			<h6><a href="/tabid/105" class="skin-chevron-link">Rectorate</a></h6>
+			<h6><a href="http://www.volgau.com/tabid/105" class="skin-chevron-link">Rectorate</a></h6>
 			<ul class="list-inline small">
 				<li class="list-inline-item">+7 (8442) 411-784</li>
 				<li class="list-inline-item"><a href="mailto:volgau@volgau.com">volgau@volgau.com</a></li>
 			</ul>
-			<h6><a href="/tabid/156" class="skin-chevron-link">Webmaster</a></h6>
+			<h6><a href="http://www.volgau.com/tabid/156" class="skin-chevron-link">Webmaster</a></h6>
 			<ul class="list-inline small">
 				<li class="list-inline-item">+7 (8442) 411-317</li>
 				<li class="list-inline-item"><a href="mailto:webmaster@volgau.com">webmaster@volgau.com</a></li>
