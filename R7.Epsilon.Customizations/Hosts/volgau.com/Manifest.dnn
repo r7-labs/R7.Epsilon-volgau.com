@@ -1,6 +1,6 @@
 <dotnetnuke type="Package" version="5.0">
 	<packages>
-		<package name="R7.Epsilon.Customizations-volgau.com" type="Module" version="00.05.01">
+		<package name="R7.Epsilon.Customizations-volgau.com" type="Module" version="00.05.02">
 			<friendlyName>R7.Epsilon.Customizations-volgau.com</friendlyName>
 			<description>R7.Epsilon Skin customizations for volgau.com portals</description>
 			<owner>
