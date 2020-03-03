@@ -1,4 +1,4 @@
-﻿themes:
+themes:
 
   - name: green
     css: green-theme.min.css
@@ -109,7 +109,7 @@ websites:
     hreflang: ru
 
   - name: Website_dru
-    url: http://marabu34.ru/detskiy_universitet/
+    url: http://www.volgau.com/tabid/15560
     hreflang: ru
 
 search-engines:
