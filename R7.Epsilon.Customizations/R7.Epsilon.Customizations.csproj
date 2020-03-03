@@ -57,11 +57,8 @@
     <None Include="Hosts\volgau.com\src\favicons\favicon.xcf" />
     <None Include="Hosts\volgau.com\Portals\_default\images\favicons\favicon.ico" />
     <None Include="Hosts\volgau.com\src\logo\logo_blue.svg" />
-    <None Include="Hosts\volgau.com\src\logo\logo_blue_100x100.png" />
     <None Include="Hosts\volgau.com\src\logo\logo_brown.svg" />
-    <None Include="Hosts\volgau.com\src\logo\logo_brown_100x100.png" />
     <None Include="Hosts\volgau.com\src\logo\logo_green.svg" />
-    <None Include="Hosts\volgau.com\src\logo\logo_green_100x100.png" />
     <None Include="Hosts\volgau.com\Portals\0\logo_green.png" />
     <None Include="Hosts\volgau.com\Portals\2\logo_blue.png" />
     <None Include="Hosts\volgau.com\Portals\3\logo_brown.png" />
