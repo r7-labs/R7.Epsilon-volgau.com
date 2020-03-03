@@ -15,11 +15,11 @@ menu:
 
 primary-menu:
 
-  node-selector: "*,0,3"
+  node-selector: "*"
 
 secondary-menu:
 
-  node-selector: "*,0,3"
+  node-selector: "*"
   include-nodes: 0
 
 breadcrumb-menu:

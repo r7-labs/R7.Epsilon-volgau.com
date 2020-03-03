@@ -17,12 +17,12 @@ menu:
 
 primary-menu:
 
-  node-selector: "*,0,3"
+  node-selector: "*"
   include-nodes: "36,104,1206,58,3985,109,9427,7384,95,1239"
 
 secondary-menu:
 
-  node-selector: "*,0,3"
+  node-selector: "*"
   include-nodes: "55,94,96,2769,89,2014,15089"
 
 breadcrumb-menu:
