@@ -62,6 +62,9 @@
     <None Include="Hosts\volgau.com\Portals\0\logo_green.png" />
     <None Include="Hosts\volgau.com\Portals\2\logo_blue.png" />
     <None Include="Hosts\volgau.com\Portals\3\logo_brown.png" />
+    <None Include="Hosts\volgau.com\src\logo\logo_blue.png" />
+    <None Include="Hosts\volgau.com\src\logo\logo_brown.png" />
+    <None Include="Hosts\volgau.com\src\logo\logo_green.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Hosts\volgau.com\" />
