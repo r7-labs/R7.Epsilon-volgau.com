@@ -24,7 +24,7 @@ secondary-menu:
 
 breadcrumb-menu:
 
-  node-selector: "*,0,7"
+  node-selector: "*"
 
 social-groups:
 
