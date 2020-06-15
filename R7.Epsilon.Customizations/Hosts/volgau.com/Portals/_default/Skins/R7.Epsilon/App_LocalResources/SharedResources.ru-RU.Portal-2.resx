@@ -12,7 +12,14 @@
 	<resheader name="writer">
 		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
 	</resheader>
-	<data name="FooterPane3_Content.Text" xml:space="preserve">
+	<data name="FooterPane1_Content.Text" xml:space="preserve">
+		<value><![CDATA[<h6><strong>Печатные издания</strong></h6>
+			<ul class="list-inline small">
+				<li class="list-inline-item"><a href="http://www.volgau.com/tabid/361">Мичуринец</a></li>
+				<li class="list-inline-item"><a href="http://www.volgau.com/tabid/612">Известия Нижневолжского АУК</a></li>
+			</ul>]]></value>
+	</data>
+	<data name="FooterPane2_Content.Text" xml:space="preserve">
 		<value><![CDATA[<h6><a href="http://www.volgau.com/tabid/3986" class="skin-chevron-link">Университет</a></h6>
 			<ul class="list-inline small">
 				<li class="list-inline-item"><a href="http://www.volgau.com/tabid/3986">Контакты</a></li>
@@ -20,14 +27,7 @@
 				<li class="list-inline-item"><a href="http://www.volgau.com/tabid/10463">Подразделения</a></li>
 				<li class="list-inline-item"><a href="http://www.volgau.com/tabid/10462">Сотрудники</a></li>
 			</ul>
-			<h6><strong>Печатные издания</strong></h6>
-			<ul class="list-inline small">
-				<li class="list-inline-item"><a href="http://www.volgau.com/tabid/361">Мичуринец</a></li>
-				<li class="list-inline-item"><a href="http://www.volgau.com/tabid/612">Известия Нижневолжского АУК</a></li>
-			</ul>]]></value>
-	</data>
-	<data name="FooterPane4_Content.Text" xml:space="preserve">
-		<value><![CDATA[<h6><a href="http://www.volgau.com/tabid/55" class="skin-chevron-link">Приемная комиссия</a></h6>
+			<h6><a href="http://www.volgau.com/tabid/55" class="skin-chevron-link">Приемная комиссия</a></h6>
 			<ul class="list-inline small">
 				<li class="list-inline-item">+7 (8442) 411-778</li>
 				<li class="list-inline-item">+7 (902) 656-87-18</li>
@@ -37,8 +37,10 @@
 			<ul class="list-inline small">
 				<li class="list-inline-item">+7 (8442) 411-784</li>
 				<li class="list-inline-item"><a href="mailto:volgau@volgau.com">volgau@volgau.com</a></li>
-			</ul>
-			<h6><a href="http://www.volgau.com/tabid/156" class="skin-chevron-link">Веб-мастер</a></h6>
+			</ul>]]></value>
+	</data>
+	<data name="FooterPane4_Content.Text" xml:space="preserve">
+		<value><![CDATA[<h6><a href="http://www.volgau.com/tabid/156" class="skin-chevron-link">Веб-мастер</a></h6>
 			<ul class="list-inline small">
 				<li class="list-inline-item">+7 (8442) 411-317</li>
 				<li class="list-inline-item"><a href="mailto:webmaster@volgau.com">webmaster@volgau.com</a></li>
