@@ -79,6 +79,10 @@ feedback:
 
 websites:
 
+  - name: Website_priem
+    url: http://priem.volgau.com
+    hreflang: ru
+
   - name: Website_sdo
     url: http://sdo.volgau.com
     hreflang: ru
