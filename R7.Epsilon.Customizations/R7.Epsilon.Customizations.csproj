@@ -48,14 +48,7 @@
     <None Include="Hosts\volgau.com\releaseNotes.htm" />
     <None Include="packages.config" />
     <None Include="Hosts\volgau.com\Portals\_default\Skins\R7.Epsilon\App_LocalResources\SharedResources.ru-RU.Host.resx" />
-    <None Include="Hosts\volgau.com\src\favicons\favicon-16x16.svg" />
-    <None Include="Hosts\volgau.com\src\favicons\favicon-32x32.svg" />
-    <None Include="Hosts\volgau.com\src\favicons\favicon-96x96.svg" />
-    <None Include="Hosts\volgau.com\Portals\_default\images\favicons\favicon-16x16.png" />
-    <None Include="Hosts\volgau.com\Portals\_default\images\favicons\favicon-32x32.png" />
-    <None Include="Hosts\volgau.com\Portals\_default\images\favicons\favicon-96x96.png" />
     <None Include="Hosts\volgau.com\src\favicons\favicon.xcf" />
-    <None Include="Hosts\volgau.com\Portals\_default\images\favicons\favicon.ico" />
     <None Include="Hosts\volgau.com\src\logo\logo_blue.svg" />
     <None Include="Hosts\volgau.com\src\logo\logo_brown.svg" />
     <None Include="Hosts\volgau.com\src\logo\logo_green.svg" />
@@ -65,11 +58,17 @@
     <None Include="Hosts\volgau.com\src\logo\logo_blue.png" />
     <None Include="Hosts\volgau.com\src\logo\logo_brown.png" />
     <None Include="Hosts\volgau.com\src\logo\logo_green.png" />
+    <None Include="Hosts\volgau.com\src\favicons\favicon.ico" />
+    <None Include="Hosts\volgau.com\src\favicons\favicon.svg" />
+    <None Include="Hosts\volgau.com\src\favicons\favicon_192x192.png" />
+    <None Include="Hosts\volgau.com\src\favicons\test.html" />
+    <None Include="Hosts\volgau.com\src\favicons\volgau_1by1.png" />
+    <None Include="Hosts\volgau.com\src\favicons\volgau_192x192.png" />
+    <None Include="Hosts\volgau.com\Portals\0\favicon.ico" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Hosts\volgau.com\" />
     <Folder Include="Hosts\volgau.com\Portals\" />
-    <Folder Include="Hosts\volgau.com\Portals\_default\images\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="Hosts\volgau.com\Build.targets" />
