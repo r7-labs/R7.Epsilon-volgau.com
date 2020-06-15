@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0" DefaultTargets="InstallPackage">
    <PropertyGroup>
         <InstallPackageImported>true</InstallPackageImported>
@@ -7,12 +7,8 @@
 		<!-- Remove tmp directory (if previous build failed) -->
         <RemoveDir Directories="$(TmpDir)" />
 
-		<!-- Read package version from the manifest -->
-        <XmlPeek Query="/dotnetnuke/packages/package[1]/@version" XmlInputPath="$(ManifestFile)">
-            <Output TaskParameter="Result" PropertyName="Version" />
-        </XmlPeek>
 		<PropertyGroup>
-            <PackageFileName>$(PackageName)-$(HostName)-$(Version)-Install.zip</PackageFileName>
+            <PackageFileName>$(PackageName)-$(HostName)-$(ReleaseVersion)-Install.zip</PackageFileName>
         </PropertyGroup>
 
 		<!-- Apply excluded files filters -->
@@ -25,7 +21,7 @@
 
 		<!-- Copy filtered Resource files to tmp/Resources dir -->
         <Copy SourceFiles="@(InstallFilteredFiles)" DestinationFolder="$(TmpDir)/Resources/%(RecursiveDir)" />
-       
+
         <!-- Declare files to zip -->
         <ItemGroup>
             <InstallResourceZipFiles Include="$(TmpDir)/Resources/**/*.*" />
@@ -43,7 +39,7 @@
         <ItemGroup>
             <InstallPackageFiles Include="$(TmpDir)/Package/**/*.*" />
         </ItemGroup>
-		
+
         <!-- Create the install package -->
         <Zip Condition=" '$(OS)' != 'Unix' " Files="@(InstallPackageFiles)" WorkingDirectory="$(MSBuildProjectDirectory)\bin\tmp\Package" ZipFileName="$(TmpDir)/Package/$(PackageFileName)" />
         <Exec Condition=" '$(OS)' == 'Unix' " Command="zip -r -6 -UN=UTF8 &quot;$(PackageFileName)&quot; ." WorkingDirectory="$(TmpDir)/Package" />

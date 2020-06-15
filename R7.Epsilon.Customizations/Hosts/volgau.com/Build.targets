@@ -1,6 +1,6 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0" DefaultTargets="VolgauCom">
-	<Import Project="$(MSBuildThisFileDirectory)/../../_Settings.targets" Condition=" '$(BuildSettingsImported)' == '' " />
+	<Import Project="$(MSBuildThisFileDirectory)/../../__Settings.targets" Condition=" '$(BuildSettingsImported)' == '' " />
 	<Import Project="$(MSBuildThisFileDirectory)/../../InstallPackage.targets" Condition=" '$(InstallPackageImported)' == '' " />
 	<PropertyGroup>
 		<HostName>volgau.com</HostName>

@@ -8,7 +8,7 @@
     <RootNamespace>R7.Epsilon.Customizations</RootNamespace>
     <AssemblyName>R7.Epsilon.Customizations</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
-    <ReleaseVersion>0.5.6</ReleaseVersion>
+    <ReleaseVersion>0.5.7</ReleaseVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -41,7 +41,7 @@
     <None Include="Hosts\volgau.com\Portals\3\R7.Epsilon.yml" />
     <None Include="Hosts\volgau.com\Build.targets" />
     <None Include="Hosts\volgau.com\Manifest.dnn" />
-    <None Include="_Settings.targets" />
+    <None Include="__Settings.targets" />
     <None Include="InstallPackage.targets" />
     <None Include="R7.Epsilon.Customizations.csproj" />
     <None Include="Hosts\volgau.com\license.htm" />
