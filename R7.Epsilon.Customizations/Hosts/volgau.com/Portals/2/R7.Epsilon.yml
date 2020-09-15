@@ -56,7 +56,8 @@ social-groups:
 
 adsense:
 
-  client: pub-9311000650074319
+#  client: pub-9311000650074319
+  client: ""
   slot: 6448162234
 
 show-terms: false
