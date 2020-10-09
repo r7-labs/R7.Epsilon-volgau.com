@@ -1,8 +1,8 @@
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
-	<Import Project="../packages/MSBuildTasks.1.5.0.235/tools/MSBuild.Community.Tasks.Targets" />
-	<!-- Main properties -->
+  <Import Project="../packages/MSBuildTasks.1.5.0.235/tools/MSBuild.Community.Tasks.Targets" />
+    <!-- Main properties -->
     <PropertyGroup>
-        <PackageName>R7.Epsilon.Customizations</PackageName>
+        <PackageName>R7.Epsilon</PackageName>
         <PackageOutputPath>bin/Deploy</PackageOutputPath>
         <TmpDir>bin/tmp</TmpDir>
         <DnnLocalDeployPath Condition=" '$(OS)' == 'Unix' ">$(HOME)/mnt/dnn8</DnnLocalDeployPath>
@@ -11,7 +11,7 @@
     </PropertyGroup>
     <!-- Derieved properties -->
     <PropertyGroup>
-		<!-- Path is relative to the package folder -->
+    	  <!-- Path is relative to the package folder -->
         <MainProjectPath>../../$(PackageName)</MainProjectPath>
         <MainProjectOutputPath>$(MainProjectPath)/bin/$(Configuration)</MainProjectOutputPath>
         <DnnBinPath>$(DnnLocalDeployPath)/bin</DnnBinPath>

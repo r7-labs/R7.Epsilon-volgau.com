@@ -42,7 +42,7 @@ namespace R7.Epsilon.Tests
 
         public static IEnumerable<object[]> GetPortalConfigs ()
         {
-            var configsPath = Path.Combine ("..", "..", "..", "..", "R7.Epsilon.Customizations", "Hosts");
+            var configsPath = Path.Combine ("..", "..", "..", "..", "R7.Epsilon.Customizations", "Website");
             var configFiles = Directory.GetFiles (configsPath, "R7.Epsilon.yml", SearchOption.AllDirectories);
             
             foreach (var configFile in configFiles) {

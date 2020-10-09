@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -31,46 +31,47 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Hosts\volgau.com\Portals\_default\Skins\R7.Epsilon\App_LocalResources\SharedResources.Host.resx" />
-    <None Include="Hosts\volgau.com\Portals\_default\Skins\R7.Epsilon\App_LocalResources\SharedResources.Portal-3.resx" />
-    <None Include="Hosts\volgau.com\Portals\_default\Skins\R7.Epsilon\App_LocalResources\SharedResources.ru-RU.Portal-0.resx" />
-    <None Include="Hosts\volgau.com\Portals\_default\Skins\R7.Epsilon\App_LocalResources\SharedResources.ru-RU.Portal-2.resx" />
-    <None Include="Hosts\volgau.com\Portals\_default\Skins\R7.Epsilon\App_LocalResources\SharedResources.ru-RU.Portal-3.resx" />
-    <None Include="Hosts\volgau.com\Portals\0\R7.Epsilon.yml" />
-    <None Include="Hosts\volgau.com\Portals\2\R7.Epsilon.yml" />
-    <None Include="Hosts\volgau.com\Portals\3\R7.Epsilon.yml" />
-    <None Include="Hosts\volgau.com\Build.targets" />
-    <None Include="Hosts\volgau.com\Manifest.dnn" />
     <None Include="__Settings.targets" />
     <None Include="InstallPackage.targets" />
     <None Include="R7.Epsilon.Customizations.csproj" />
-    <None Include="Hosts\volgau.com\license.htm" />
-    <None Include="Hosts\volgau.com\releaseNotes.htm" />
     <None Include="packages.config" />
-    <None Include="Hosts\volgau.com\Portals\_default\Skins\R7.Epsilon\App_LocalResources\SharedResources.ru-RU.Host.resx" />
-    <None Include="Hosts\volgau.com\src\favicons\favicon.xcf" />
-    <None Include="Hosts\volgau.com\src\logo\logo_blue.svg" />
-    <None Include="Hosts\volgau.com\src\logo\logo_brown.svg" />
-    <None Include="Hosts\volgau.com\src\logo\logo_green.svg" />
-    <None Include="Hosts\volgau.com\Portals\0\logo_green.png" />
-    <None Include="Hosts\volgau.com\Portals\2\logo_blue.png" />
-    <None Include="Hosts\volgau.com\Portals\3\logo_brown.png" />
-    <None Include="Hosts\volgau.com\src\logo\logo_blue.png" />
-    <None Include="Hosts\volgau.com\src\logo\logo_brown.png" />
-    <None Include="Hosts\volgau.com\src\logo\logo_green.png" />
-    <None Include="Hosts\volgau.com\src\favicons\favicon.ico" />
-    <None Include="Hosts\volgau.com\src\favicons\favicon.svg" />
-    <None Include="Hosts\volgau.com\src\favicons\favicon_192x192.png" />
-    <None Include="Hosts\volgau.com\src\favicons\test.html" />
-    <None Include="Hosts\volgau.com\src\favicons\volgau_1by1.png" />
-    <None Include="Hosts\volgau.com\src\favicons\volgau_192x192.png" />
-    <None Include="Hosts\volgau.com\Portals\0\favicon.ico" />
+    <None Include="Website\Portals\_default\Skins\R7.Epsilon\App_LocalResources\SharedResources.Host.resx" />
+    <None Include="Website\Portals\_default\Skins\R7.Epsilon\App_LocalResources\SharedResources.Portal-3.resx" />
+    <None Include="Website\Portals\_default\Skins\R7.Epsilon\App_LocalResources\SharedResources.ru-RU.Host.resx" />
+    <None Include="Website\Portals\_default\Skins\R7.Epsilon\App_LocalResources\SharedResources.ru-RU.Portal-0.resx" />
+    <None Include="Website\Portals\_default\Skins\R7.Epsilon\App_LocalResources\SharedResources.ru-RU.Portal-2.resx" />
+    <None Include="Website\Portals\_default\Skins\R7.Epsilon\App_LocalResources\SharedResources.ru-RU.Portal-3.resx" />
+    <None Include="Website\Portals\0\favicon.ico" />
+    <None Include="Website\Portals\0\logo_green.png" />
+    <None Include="Website\Portals\0\R7.Epsilon.yml" />
+    <None Include="Website\Portals\2\logo_blue.png" />
+    <None Include="Website\Portals\2\R7.Epsilon.yml" />
+    <None Include="Website\Portals\3\logo_brown.png" />
+    <None Include="Website\Portals\3\R7.Epsilon.yml" />
+    <None Include="src\assets\favicons\favicon.ico" />
+    <None Include="src\assets\favicons\favicon.svg" />
+    <None Include="src\assets\favicons\favicon.xcf" />
+    <None Include="src\assets\favicons\favicon_192x192.png" />
+    <None Include="src\assets\favicons\test.html" />
+    <None Include="src\assets\favicons\volgau_192x192.png" />
+    <None Include="src\assets\favicons\volgau_1by1.png" />
+    <None Include="src\assets\logo\logo_blue.png" />
+    <None Include="src\assets\logo\logo_blue.svg" />
+    <None Include="src\assets\logo\logo_brown.png" />
+    <None Include="src\assets\logo\logo_brown.svg" />
+    <None Include="src\assets\logo\logo_green.png" />
+    <None Include="src\assets\logo\logo_green.svg" />
+    <None Include="license.htm" />
+    <None Include="Manifest.dnn" />
+    <None Include="releaseNotes.htm" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Hosts\volgau.com\" />
-    <Folder Include="Hosts\volgau.com\Portals\" />
+    <Folder Include="Website\" />
+    <Folder Include="Website\Portals\" />
+    <Folder Include="src\" />
+    <Folder Include="src\assets\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
-  <Import Project="Hosts\volgau.com\Build.targets" />
-  <Target Name="AfterBuild" DependsOnTargets="VolgauCom" />
+  <Import Project="InstallPackage.targets" />
+  <Target Name="AfterBuild" DependsOnTargets="InstallPackage" />
 </Project>
