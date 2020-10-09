@@ -38,6 +38,10 @@ social-groups:
     url: https://www.youtube.com/channel/UCYPMmQknVPxosuY4iPCfVDg
     is-primary: true
 
+  - type: Telegram
+    url: https://t.me/volgau
+    is-primary: true
+
   - type: Facebook
     url: https://www.facebook.com/volgau
     api-id: 413998678785585
