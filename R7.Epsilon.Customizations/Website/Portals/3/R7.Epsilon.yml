@@ -40,7 +40,6 @@ social-groups:
 
   - type: Telegram
     url: https://t.me/volgau
-    is-primary: true
 
   - type: Facebook
     url: https://www.facebook.com/volgau
