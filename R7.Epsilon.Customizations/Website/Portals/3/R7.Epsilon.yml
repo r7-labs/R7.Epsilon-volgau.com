@@ -124,8 +124,8 @@ search-engines:
 
 permalink-formats:
 
-  - "/tabid/{tabid}{?forumid}{?threadid}{?scope}"
-  - "/linkclick.aspx?link={tabid}&portalid={portalid}{?forumid}{?threadid}{?scope}"
+  - "/tabid/{tabid}{?forumid}{?threadid}{?scope}{?ctl}{?mid}{?entryid}"
+  - "/linkclick.aspx?link={tabid}&portalid={portalid}{?forumid}{?threadid}{?scope}{?ctl}{?mid}{?entryid}"
 
 url-shorteners:
 
