@@ -18,9 +18,6 @@
 	<data name="Website_world.Text" xml:space="preserve">
 		<value>Мультиязычный портал</value>
 	</data>
-	<data name="Website_consulting.Text" xml:space="preserve">
-		<value>Система дистанционного консультирования</value>
-	</data>
 	<data name="Website_edushare.Text" xml:space="preserve">
 		<value>Электронный каталог материалов к образовательным программам</value>
 	</data>

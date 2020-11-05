@@ -33,9 +33,6 @@
 	<data name="Website_world.Text" xml:space="preserve">
 		<value>Multilanguage portal</value>
 	</data>
-	<data name="Website_consulting.Text" xml:space="preserve">
-		<value>Distant consulting system</value>
-	</data>
 	<data name="Website_edushare.Text" xml:space="preserve">
 		<value>Electronic catalog of materials for educational programs</value>
 	</data>

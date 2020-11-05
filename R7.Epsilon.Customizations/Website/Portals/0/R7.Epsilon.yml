@@ -100,10 +100,6 @@ websites:
     hreflang: en
     is-alt-website: true
 
-  - name: Website_consulting
-    url: http://consulting.volgau.com
-    hreflang: ru
-
   - name: Website_edushare
     url: http://edushare.volgau.com
     hreflang: ru
