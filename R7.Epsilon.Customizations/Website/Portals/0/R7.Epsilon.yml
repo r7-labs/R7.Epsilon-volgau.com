@@ -83,36 +83,36 @@ feedback:
 
 websites:
 
-  - name: Website_priem
+  - label: resx:Website_priem
     url: http://priem.volgau.com
     hreflang: ru
 
-  - name: Website_sdo
+  - label: resx:Website_sdo
     url: https://vgau.prometeus.ru
     hreflang: ru
 
-  - name: Website_lk
+  - label: resx:Website_lk
     url: http://lk.volgau.com
     hreflang: ru
 
-  - name: Website_world
+  - label: resx:Website_world
     url: http://world.volgau.com
     hreflang: en
     is-alt-website: true
 
-  - name: Website_edushare
+  - label: resx:Website_edushare
     url: http://edushare.volgau.com
     hreflang: ru
 
-  - name: Website_projects
+  - label: resx:Website_projects
     url: http://projects.volgau.com
     hreflang: ru
 
-  - name: Website_lib
+  - label: resx:Website_lib
     url: http://lib.volgau.com/megapro/web
     hreflang: ru
 
-  - name: Website_dru
+  - label: resx:Website_dru
     url: http://www.volgau.com/tabid/15560
     hreflang: ru
 
