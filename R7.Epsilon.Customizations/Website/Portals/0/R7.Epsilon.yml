@@ -72,6 +72,8 @@ show-privacy: false
 
 use-obrnadzor-microdata: true
 
+disable-page-audit: true
+
 analytics:
 
   use-sputnik: false
