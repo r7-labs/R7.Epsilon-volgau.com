@@ -121,6 +121,7 @@ search-engines:
     url-format: https://google.com/search?q=site:{website}%20{searchText}
 
   - type: Yandex
+    icon-css-class: "fab fa-yandex"
     url-format: https://yandex.ru/search?site={website}&text={searchText}
 
   - type: DuckDuckGo
