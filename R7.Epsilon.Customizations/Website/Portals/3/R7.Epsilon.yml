@@ -42,16 +42,19 @@ social-groups:
     url: https://t.me/volgau
 
   - type: Facebook
+    icon-css-class: "fab fa-facebook-square"
     url: https://www.facebook.com/volgau
     api-id: 413998678785585
     share-enabled: false
 
   - type: Twitter
+    icon-css-class: "fab fa-twitter-square"
     url: https://twitter.com/volgau_com
     share-enabled: false
     params: ['volgau_com'] # via
 
   - type: Odnoklassniki
+    icon-css-class: "fab fa-odnoklassniki-square"
     url: https://ok.ru/group/51992191172689
 
   - type: Instagram
