@@ -25,10 +25,10 @@
     <Compile Include="..\..\R7.Epsilon\R7.Epsilon\Components\EpsilonPortalConfig.cs">
       <Link>Components\EpsilonPortalConfig.cs</Link>
     </Compile>
-    <Compile Include="..\..\R7.Epsilon\R7.Epsilon\Components\SearchEngineType.cs">
+    <Compile Include="..\..\R7.Epsilon\R7.Epsilon\Models\SearchEngineType.cs">
       <Link>Components\SearchEngineType.cs</Link>
     </Compile>
-    <Compile Include="..\..\R7.Epsilon\R7.Epsilon\Components\SocialGroupType.cs">
+    <Compile Include="..\..\R7.Epsilon\R7.Epsilon\Models\SocialGroupType.cs">
       <Link>Components\SocialGroupType.cs</Link>
     </Compile>
     <Compile Include="CustomizationsPortalConfigTests.cs" />
