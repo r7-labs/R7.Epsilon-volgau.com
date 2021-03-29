@@ -70,8 +70,6 @@ show-terms: false
 
 show-privacy: false
 
-use-obrnadzor-microdata: true
-
 analytics:
 
   use-sputnik: false
