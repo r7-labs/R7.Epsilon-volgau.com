@@ -18,7 +18,7 @@ menu:
 primary-menu:
 
   node-selector: "*"
-  include-nodes: "36,1206,58,93,12163,7384"
+  include-nodes: "36,1206,58,93,396,12163,7384"
 
 secondary-menu:
 
