@@ -80,9 +80,9 @@ websites:
     url: http://www.volgau.com
     hreflang: ru
 
-  - label: resx:Website_priem
-    url: http://priem.volgau.com
-    hreflang: ru
+#  - label: resx:Website_priem
+#    url: http://priem.volgau.com
+#    hreflang: ru
 
   - label: resx:Website_sdo
     url: https://vgau.prometeus.ru
