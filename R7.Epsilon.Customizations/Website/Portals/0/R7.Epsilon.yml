@@ -75,6 +75,8 @@ show-privacy: false
 
 disable-page-audit: true
 
+disable-browser-alert: true
+
 analytics:
 
   use-sputnik: false
