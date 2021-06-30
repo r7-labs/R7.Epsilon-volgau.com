@@ -1,0 +1,105 @@
+.skin-vypusknoy .skin-page-header {
+    display:none;
+}
+
+.skin-vypusknoy .skin-subheader-top {
+    margin-bottom:0;
+    border-radius:0;
+}
+ 
+.skin-vypusknoy .centerline {
+    border-bottom-width: 2px;
+    border-bottom-color: #001E64;
+}
+
+.skin-vypusknoy .centerline > .centerline-header {
+    color: #001E64;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+}
+
+.skin-vypusknoy .lead-hash-tags a {
+    color: #001E64;
+    font-family: "Montserrat", sans-serif;
+}
+
+.skin-vypusknoy .news-entry h3 {
+    color: #001E64;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+}
+
+.skin-vypusknoy .news-entry h3 a {
+    color: #001E64;
+}
+
+.skin-vypusknoy .vypusk-footer {
+    min-height:322px;
+    background: linear-gradient(5deg, #001F65, #001F65 75%, #FFFFFF 76%, #FFFFFF);
+}
+
+.skin-vypusknoy .vypusk-minobr-img {
+    max-height:100px;
+    margin-top:100px;
+}
+
+.skin-vypusknoy #dnn_BottomPane .cnt {
+    margin-bottom:0;
+}
+
+.skin-vypusknoy .vypusk-partner-img {
+    height:100px;
+}
+
+.skin-vypusknoy .vypusk-footer .list-inline-item:not(:last-child) {
+    margin-right:1.5rem;
+}
+
+.skin-vypusknoy .skin-page-info {
+    border-radius:0;
+}
+
+
+/*
+.skin-vypusknoy .skin-subheader-top,
+.skin-vypusknoy .skin-subheader-top .breadcrumb {
+    background-color:#001E64;
+}
+
+.skin-vypusknoy .skin-banner {
+    display:none;
+}
+
+.skin-vypusknoy .vypusk-banner {
+    min-height:595px;
+    background:url('/portals/0/20/200617/vypusk_banner.png') no-repeat;
+}
+
+.skin-vypusknoy .vypusk-mini-banner {
+min-height:256px;
+background:url('/portals/0/20/200624/vypusk_mini_banner.png') no-repeat;
+}
+
+.skin-vypusknoy .vypusk-banner-date {
+    color:#635E97;
+    font-weight:bold;
+    text-transform:uppercase;
+}
+
+.skin-vypusknoy .vypusk-banner-h1 {
+    color:#2D2E84;
+    font-weight:bold;
+    text-transform:uppercase;
+}
+
+.skin-vypusknoy .card-deck.vypusk-students .card-title {
+    display:block;
+    height:4rem;
+    font-weight:bold;
+}
+
+.skin-vypusknoy .cnt-default h2 .h2 {
+    color:#2D2E84;
+    font-weight:bold;
+}
+*/

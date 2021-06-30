@@ -15,6 +15,7 @@
     <!-- Declare install files -->
     <ItemGroup>
       <InstallIncludeFiles Include="$(IncludeBasePath)\**\*.yml" />
+      <InstallIncludeFiles Include="$(IncludeBasePath)\**\*.ascx" />
       <InstallIncludeFiles Include="$(IncludeBasePath)\**\*.resx" />
       <InstallIncludeFiles Include="$(IncludeBasePath)\**\*.css" />
       <InstallIncludeFiles Include="$(IncludeBasePath)\**\*.js" />

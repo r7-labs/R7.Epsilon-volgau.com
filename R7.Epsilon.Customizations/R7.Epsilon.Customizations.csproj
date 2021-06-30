@@ -74,6 +74,13 @@
     <Folder Include="src\assets\" />
     <Folder Include="Website\Portals\6\" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Website\Portals\0\Skins\R7.Epsilon\Abitur.ascx" />
+    <Content Include="Website\Portals\0\Skins\R7.Epsilon\assets\css\vypusknoy-2021.css" />
+    <Content Include="Website\Portals\0\Skins\R7.Epsilon\Home.ascx" />
+    <Content Include="Website\Portals\0\Skins\R7.Epsilon\Layouts\_middle-grid-4cols.ascx" />
+    <Content Include="Website\Portals\0\Skins\R7.Epsilon\Vypusknoy_2021.ascx" />
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="InstallPackage.targets" />
   <Target Name="AfterBuild" DependsOnTargets="InstallPackage" />
