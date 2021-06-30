@@ -7,6 +7,8 @@
   <Target Name="InstallPackage">
    <!-- Remove tmp directory (if previous build failed) -->
     <RemoveDir Directories="$(TmpDir)" />
+    <!-- Generate main manifest file -->
+    <Exec Command="$(PowerShell) GenerateManifest.ps1 &quot;$(MainProjectOutputPath)/Manifest.dnn.template&quot; $(ReleaseVersion)" />
     <PropertyGroup>
         <HostName>volgau.com</HostName>
         <IncludeBasePath>$(MSBuildThisFileDirectory)/Website</IncludeBasePath>
@@ -29,7 +31,7 @@
     </ItemGroup>
     <!-- Declare DNN manifest files -->
     <ItemGroup>
-      <InstallManifestFiles Include="Manifest.dnn" />
+      <InstallManifestFiles Include="$(MainProjectOutputPath)/Manifest.dnn" />
       <InstallManifestFiles Include="license.htm" />
       <InstallManifestFiles Include="releaseNotes.htm" />
     </ItemGroup>

@@ -12,7 +12,7 @@
     <!-- Derieved properties -->
     <PropertyGroup>
       <!-- Path is relative to the package folder -->
-      <MainProjectPath>../../$(PackageName)</MainProjectPath>
+      <MainProjectPath>../$(PackageName).Customizations</MainProjectPath>
       <MainProjectOutputPath>$(MainProjectPath)/bin/$(Configuration)</MainProjectOutputPath>
       <DnnBinPath>$(DnnLocalDeployPath)/bin</DnnBinPath>
       <DnnSkinsPath>$(DnnLocalDeployPath)/Portals/_default/Skins</DnnSkinsPath>
@@ -20,5 +20,9 @@
       <DnnMenusPath>$(DnnSkinsPath)</DnnMenusPath>
       <DnnModulesPath>$(DnnLocalDeployPath)/DesktopModules</DnnModulesPath>
       <DnnJsLibrariesPath>$(DnnLocalDeployPath)/Resources/Libraries</DnnJsLibrariesPath>
+    </PropertyGroup>
+    <PropertyGroup>
+      <PowerShell Condition=" '$(OS)' == 'Unix' ">pwsh</PowerShell>
+      <PowerShell Condition=" '$(OS)' != 'Unix' ">powershell</PowerShell>
     </PropertyGroup>
 </Project>

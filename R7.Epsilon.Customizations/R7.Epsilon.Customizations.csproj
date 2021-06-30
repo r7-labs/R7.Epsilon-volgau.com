@@ -62,7 +62,9 @@
     <None Include="src\assets\logo\logo_green.png" />
     <None Include="src\assets\logo\logo_green.svg" />
     <None Include="license.htm" />
-    <None Include="Manifest.dnn" />
+    <None Include="Manifest.dnn.template">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="releaseNotes.htm" />
     <None Include="Website\Portals\6\logo_blue.png" />
     <None Include="Website\Portals\6\R7.Epsilon.yml" />
@@ -75,6 +77,7 @@
     <Folder Include="Website\Portals\6\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="GenerateManifest.ps1" />
     <Content Include="Website\Portals\0\Skins\R7.Epsilon\Abitur.ascx" />
     <Content Include="Website\Portals\0\Skins\R7.Epsilon\assets\css\vypusknoy-2021.css" />
     <Content Include="Website\Portals\0\Skins\R7.Epsilon\Home.ascx" />
