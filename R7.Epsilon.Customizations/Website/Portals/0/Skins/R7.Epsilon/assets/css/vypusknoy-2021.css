@@ -6,7 +6,7 @@
     margin-bottom:0;
     border-radius:0;
 }
- 
+
 .skin-vypusknoy .centerline {
     border-bottom-width: 2px;
     border-bottom-color: #001E64;
@@ -58,48 +58,3 @@
 .skin-vypusknoy .skin-page-info {
     border-radius:0;
 }
-
-
-/*
-.skin-vypusknoy .skin-subheader-top,
-.skin-vypusknoy .skin-subheader-top .breadcrumb {
-    background-color:#001E64;
-}
-
-.skin-vypusknoy .skin-banner {
-    display:none;
-}
-
-.skin-vypusknoy .vypusk-banner {
-    min-height:595px;
-    background:url('/portals/0/20/200617/vypusk_banner.png') no-repeat;
-}
-
-.skin-vypusknoy .vypusk-mini-banner {
-min-height:256px;
-background:url('/portals/0/20/200624/vypusk_mini_banner.png') no-repeat;
-}
-
-.skin-vypusknoy .vypusk-banner-date {
-    color:#635E97;
-    font-weight:bold;
-    text-transform:uppercase;
-}
-
-.skin-vypusknoy .vypusk-banner-h1 {
-    color:#2D2E84;
-    font-weight:bold;
-    text-transform:uppercase;
-}
-
-.skin-vypusknoy .card-deck.vypusk-students .card-title {
-    display:block;
-    height:4rem;
-    font-weight:bold;
-}
-
-.skin-vypusknoy .cnt-default h2 .h2 {
-    color:#2D2E84;
-    font-weight:bold;
-}
-*/
