@@ -22,6 +22,14 @@ Options.DisablePermalinks = true;
 	</header>
 	<!--#include file="~/Portals/_default/Skins/R7.Epsilon/Layouts/_subheader-fluid.ascx"-->
 	<skin:SUBHEADER runat="server" />
+	<div class="container">
+		<div class="row">
+			<div id="TopBannerPane1" runat="server" class="col-lg-3 col-md-6" />
+			<div id="TopBannerPane2" runat="server" class="col-lg-3 col-md-6" />
+			<div id="TopBannerPane3" runat="server" class="col-lg-3 col-md-6" />
+			<div id="TopBannerPane4" runat="server" class="col-lg-3 col-md-6" />
+		</div>
+	</div>
 	<!--#include file="~/Portals/_default/Skins/R7.Epsilon/Layouts/_top.ascx"-->
 	<!--#include file="~/Portals/_default/Skins/R7.Epsilon/Layouts/_main.ascx"-->
 	<!--#include file="~/Portals/0/Skins/R7.Epsilon/Layouts/_middle-grid-4cols.ascx"-->
