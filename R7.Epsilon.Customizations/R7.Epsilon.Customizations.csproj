@@ -80,7 +80,9 @@
     <Content Include="GenerateManifest.ps1" />
     <Content Include="Website\Portals\0\Skins\R7.Epsilon\Abitur.ascx" />
     <Content Include="Website\Portals\0\Skins\R7.Epsilon\assets\css\vypusknoy-2021.css" />
+    <Content Include="Website\Portals\0\Skins\R7.Epsilon\ContentListAlt.ascx" />
     <Content Include="Website\Portals\0\Skins\R7.Epsilon\Home.ascx" />
+    <Content Include="Website\Portals\0\Skins\R7.Epsilon\Layouts\_content-list-alt.ascx" />
     <Content Include="Website\Portals\0\Skins\R7.Epsilon\Layouts\_middle-grid-4cols.ascx" />
     <Content Include="Website\Portals\0\Skins\R7.Epsilon\Vypusknoy_2021.ascx" />
   </ItemGroup>
