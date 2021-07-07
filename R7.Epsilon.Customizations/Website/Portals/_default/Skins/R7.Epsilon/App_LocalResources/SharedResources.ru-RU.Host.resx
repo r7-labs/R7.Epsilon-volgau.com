@@ -39,4 +39,7 @@
 	<data name="Website_priem.Text" xml:space="preserve">
 		<value>Личный кабинет абитуриента</value>
 	</data>
+	<data name="FooterPane5_Content.Text" xml:space="preserve">
+		<value><![CDATA[<h6><a href="https://base.garant.ru/77680092/948c9c0734b6e944a4727660f2d5a027/" target="_blank" class="skin-age-rating skin-age-rating-rounded-circle">12+</a></h6><p class="small">Информационная продукция для детей старше 12 лет (если иное не указано дополнительно).</p>]]></value>
+	</data>
 </root>
