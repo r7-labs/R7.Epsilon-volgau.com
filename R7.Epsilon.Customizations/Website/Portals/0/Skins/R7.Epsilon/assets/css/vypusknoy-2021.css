@@ -23,7 +23,8 @@
     font-family: "Montserrat", sans-serif;
 }
 
-.skin-vypusknoy .news-entry h3 {
+.skin-vypusknoy h2, .skin-vypusknoy .h2,
+.skin-vypusknoy h3, .skin-vypusknoy .h3 {
     color: #001E64;
     font-family: "Montserrat", sans-serif;
     font-weight: 800;
