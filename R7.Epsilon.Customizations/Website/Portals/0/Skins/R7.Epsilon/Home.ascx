@@ -24,10 +24,9 @@ Options.DisablePermalinks = true;
 	<skin:SUBHEADER runat="server" />
 	<div class="container">
 		<div class="row">
-			<div id="TopBannerPane1" runat="server" class="col-lg-3 col-md-6" />
-			<div id="TopBannerPane2" runat="server" class="col-lg-3 col-md-6" />
-			<div id="TopBannerPane3" runat="server" class="col-lg-3 col-md-6" />
-			<div id="TopBannerPane4" runat="server" class="col-lg-3 col-md-6" />
+			<div id="TopBannerPane1" runat="server" class="col-md-4" />
+			<div id="TopBannerPane2" runat="server" class="col-md-4" />
+			<div id="TopBannerPane3" runat="server" class="col-md-4" />
 		</div>
 	</div>
 	<!--#include file="~/Portals/_default/Skins/R7.Epsilon/Layouts/_top.ascx"-->
